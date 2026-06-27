@@ -36,3 +36,18 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    text-align: center;
+}
