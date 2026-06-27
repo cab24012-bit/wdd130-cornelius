@@ -7,12 +7,28 @@ body {
 
 header {
     background-color: #AAC7D8;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 140px;
+    height: auto;
+    margin: 0 auto 10px auto;
+    border-radius: 12px;
 }
 
 h1, h2 {
     font-family: Verdana, sans-serif;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
@@ -22,25 +38,17 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 main {
     max-width: 900px;
     margin: 30px auto;
     padding: 25px;
     background-color: #E6E6E6;
     border-radius: 12px;
-}
-
-footer {
-    background-color: #AAC7D8;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 h2 {
@@ -50,4 +58,20 @@ h2 {
 p {
     line-height: 1.6;
     text-align: center;
+}
+
+.featured-art {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #AAC7D8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
